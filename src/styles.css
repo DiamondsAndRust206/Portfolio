@@ -1,3 +1,7 @@
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
+
 section {
   height: 500px;
   background-color: white;
@@ -30,6 +34,21 @@ ul {
 }
 
 li {
-  /* width: 200px; */
-  /* text-decoration: none; */
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+.main-text {
+  margin-left: 80px;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  background-color: coral;
+  border-radius: 30px;
+  text-align: center;
 }
