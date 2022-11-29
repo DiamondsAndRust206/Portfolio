@@ -88,4 +88,5 @@ p {
 .logo {
   height: 100px;
   margin: 20px;
+  border-radius: 20px;
 }
