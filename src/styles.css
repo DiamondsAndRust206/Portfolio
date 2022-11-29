@@ -90,3 +90,25 @@ p {
   margin: 20px;
   border-radius: 20px;
 }
+
+.socials {
+  margin: 20px;
+}
+
+.linkedIn-logo {
+  height: 70px;
+}
+
+.linkedIn {
+  text-align: center;
+  font-size: 30px;
+}
+
+.github-logo {
+  height: 80px;
+}
+
+.github {
+  text-align: center;
+  font-size: 30px;
+}
