@@ -102,13 +102,31 @@ p {
 .linkedIn {
   text-align: center;
   font-size: 30px;
+  margin:20px;
 }
 
 .github-logo {
-  height: 80px;
+  height: 75px;
 }
 
 .github {
   text-align: center;
   font-size: 30px;
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.headshot {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
 }
