@@ -15,8 +15,10 @@ section {
 }
 
 footer {
-  height: 500px;
+  padding: 80px;
   background-color: black;
+  color: white;
+  text-align: center;
 }
 
 nav {
@@ -32,6 +34,10 @@ ul {
   font-size: 30px;
 }
 
+ul.show {
+  display: block;
+}
+
 li {
   text-decoration: none;
 }
@@ -41,10 +47,19 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 60px;
+}
+
 p {
   margin: 0;
-  font-weight: ;
   font-size: ;
+  font-weight: ;
+}
+
+.subtext {
+  font-size: 20px;
+  font-weight: ;
 }
 
 .main-area {
@@ -72,7 +87,7 @@ p {
 }
 
 .button:hover {
-  background-color: rgb(252, 199, 41);
+  background-color: rgb(255, 153, 116);
 }
 
 .button:active {
@@ -104,6 +119,10 @@ p {
   margin:20px;
 }
 
+.linkedIn-link {
+  text-decoration: none;
+}
+
 .github-logo {
   height: 75px;
 }
@@ -114,14 +133,21 @@ p {
   margin: 20px;
 }
 
+.github-link {
+  text-decoration: none;
+}
+
 .sub-section1 {
   display: flex;
   justify-content: space-around;
   padding: 80px;
 }
 
-h2 {
-  font-size: 60px;
+.sub-section2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
 }
 
 .headshot {
@@ -138,15 +164,66 @@ h2 {
   width: 300px;
   height: 500px;
   box-shadow: 5px 5px 20px rgb(166, 166, 166);
+  margin: 10px;
 }
 
 .project-container {
   display: flex;
   justify-content: space-around;
 }
-.sub-section2 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 80px;
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-align: none;
+  color: rgb(255, 153, 116);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus{
+  outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  nav {
+    align-items: flex-start;
+  }
+}
+

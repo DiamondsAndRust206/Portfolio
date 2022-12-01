@@ -3,8 +3,9 @@
   <head>
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/310c19a0de.js" crossorigin="anonymous"></script>  
     <title>Portfolio</title>
     <meta charset="UTF-8" />
   </head>
@@ -13,11 +14,14 @@
     <section class="main">
       <nav>
         <img class="logo" src="src/images/logo.png" alt="Ryan Gibson logo"/>
-        <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact</li>
+        <ul id="nav-list">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
       <div class="main-area">
         <div class="main-text">
@@ -28,13 +32,13 @@
         </div>
         <div class="socials">
           <div class="linkedIn">
-            <a href="https://www.linkedin.com/in/timothy-gibson-seattle/" target="_blank">
+            <a class="linkedIn-link" href="https://www.linkedin.com/in/timothy-gibson-seattle/" target="_blank">
               <img class="linkedIn-logo" src="src/images/linkedIn.png">
               <p>linkedIn</p>
             </a>
           </div>
           <div class="github">
-            <a href="https://github.com/DiamondsAndRust206" target="_blank">
+            <a class="github-link" href="https://github.com/DiamondsAndRust206" target="_blank">
               <img class="github-logo" src="src/images/github.png">
               <p>GitHub</p>
             </a>
@@ -43,7 +47,7 @@
       </div>
     </section>
 
-    <section class="sub-section1">
+    <section class="sub-section1" id="about-me">
       <div class="information">
         <h2>About Me</h2>
         <p>Hello. My name is Ryan Gibson, I am a full stack deveopler and I do stuff and things. </p>
@@ -53,41 +57,44 @@
       </div>
     </section>
 
-    <section class="sub-section2">
+    <section class="sub-section2" id="projects">
       <h2>Projects</h2>
       <div class="project-container">
         <div class="project-card">
-          <img class="project-image" src="">
+          <img class="project-image" src="src/images/project1.png">
           <h3>Project One</h3>
           <p class="subtext">This is my project and this is what it does.</p>
           <hr/>
-          <p class="subtext">View here</p>
+          <p class="subtext"><a class="project-link" href="https://github.com/DiamondsAndRust206/mr-roboger" target="_blank">View here</a></p>
         </div>
         <div class="project-card">
-          <img class="project-image" src="">
-          <h3>Project One</h3>
+          <img class="project-image" src="src/images/project2.png">
+          <h3>Project Two</h3>
           <p class="subtext">This is my project and this is what it does.</p>
           <hr/>
-          <p class="subtext">View here</p>
+          <p class="subtext"><a class="project-link" href="https://github.com/DiamondsAndRust206/pizza-parlor" target="_blank">View here</a></p>
         </div>
         <div class="project-card">
-          <img class="project-image" src="">
-          <h3>Project One</h3>
+          <img class="project-image" src="src/images/project3.png">
+          <h3>Project Three</h3>
           <p class="subtext">This is my project and this is what it does.</p>
           <hr/>
-          <p class="subtext">View here</p>
+          <p class="subtext"><a class="project-link" href="https://github.com/DiamondsAndRust206/DrSillystringz.Solution" target="_blank">View here</a></p>
         </div>
         <div class="project-card">
-          <img class="project-image" src="">
-          <h3>Project One</h3>
+          <img class="project-image" src="src/images/project4.png">
+          <h3>Project Four</h3>
           <p class="subtext">This is my project and this is what it does.</p>
           <hr/>
-          <p class="subtext">View here</p>
+          <p class="subtext"><a class="project-link" href="https://github.com/DiamondsAndRust206/language-suggester" target="_blank">View here</a></p>
         </div>
       </div>
     </section>
 
-    <footer></footer>
+    <footer id="contact">
+      <h2>Contact Me</h2>
+      <p>ryaninlux@gmail.com</p>
+    </footer>
 
     <script src="src/app.js"></script>
   </body>
