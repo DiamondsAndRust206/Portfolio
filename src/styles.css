@@ -41,6 +41,7 @@ li {
 
 h1 {
   font-family: 'Lobster', sans-serif;
+  color: rgb(185, 201, 201);
   font-size: 100px;
   font-weight: 300;
   margin: 0;
@@ -48,6 +49,15 @@ h1 {
 
 h2 {
   font-size: 60px;
+  color: rgb(185, 201, 201);
+}
+
+.azure {
+  color: rgb(210, 226, 226);
+}
+
+.email {
+  color: black;
 }
 
 p {
@@ -83,6 +93,7 @@ p {
   font-size: 30px;
   padding-top: 5px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .button:hover {
@@ -160,9 +171,11 @@ p {
 }
 
 .project-card {
+  background-color: azure;
   width: 300px;
   height: 500px;
-  box-shadow: 5px 5px 20px rgb(166, 166, 166);
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(47, 47, 47);
   margin: 10px;
 }
 
@@ -212,7 +225,7 @@ a {
     display: block;
     border: 0;
     background-color: transparent;
-    color: white;
+    color: rgb(185, 201, 201);
     font-size: 30px;
     margin: 20px;
     align-self: flex-end;
@@ -226,6 +239,10 @@ a {
 
   ul.show {
     display: block;
+  }
+
+  li {
+    padding-bottom: 15px;
   }
 
   nav {
