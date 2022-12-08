@@ -17,7 +17,6 @@ section {
 
 footer {
   padding: 80px;
-  /* background-color: black; */
   color: black;
   text-align: center;
 }
@@ -145,6 +144,10 @@ p {
 
 .github-link {
   text-decoration: none;
+}
+
+.html5-logo {
+  height: 70px;
 }
 
 .sub-section1 {
