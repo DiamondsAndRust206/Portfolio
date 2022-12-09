@@ -54,6 +54,11 @@ h2 {
   display: flex;
 }
 
+.skills2 {
+  display: flex;
+  margin-top: 10px;
+}
+
 .skills-text {
   font-size: 18px;
   text-align: center;
@@ -156,7 +161,9 @@ p {
 
 .skills-logo {
   height: 60px;
+  width: 65px;
   margin: 10px;
+  justify-content: space-around;
 }
 
 .sub-section1 {
