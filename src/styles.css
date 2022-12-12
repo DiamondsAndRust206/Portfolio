@@ -3,21 +3,12 @@ body {
   background-image: linear-gradient(black, white);
 }
 
-section {
-  /* background-color: white; */
-
-}
-
-.sub-section1 {
-  margin-top: 20%;
-}
 
 .main {
   height: 100vh;
   color: white;
   font-size: 40px;
 }
-
 
 
 footer {
@@ -222,10 +213,6 @@ p {
   margin-top: 25px;
   width: 250px;
   border-radius: 125px;
-}
-
-.main-area {
-  /* margin-top: 150px; */
 }
 
 hr {
