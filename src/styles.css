@@ -77,6 +77,10 @@ h2 {
   justify-content: space-around;
 }
 
+.skills-logo:hover {
+  background-color: rgb(141, 139, 139);
+}
+
 .azure {
   color: rgb(210, 226, 226);
 }
@@ -107,7 +111,7 @@ p {
   height: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 .main-text {
@@ -182,7 +186,11 @@ p {
   display: flex;
   justify-content: space-around;
   margin-top: 200px;
-  padding: 80px;
+  padding: 100px;
+}
+
+.information {
+  
 }
 
 .sub-section2 {
