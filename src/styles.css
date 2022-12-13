@@ -3,13 +3,11 @@ body {
   background-image: linear-gradient(black, white);
 }
 
-
 .main {
   height: 100vh;
   color: white;
   font-size: 40px;
 }
-
 
 footer {
   padding: 80px;
@@ -39,16 +37,26 @@ h1 {
   color: rgb(185, 201, 201);
   font-size: 100px;
   font-weight: 300;
-  margin: ;
+  margin: 0px;
 }
 
 h2 {
   font-size: 60px;
   color: rgb(185, 201, 201);
+  margin: 0px;
+}
+
+.skills-outer {
+  margin-top: 100px;
+}
+
+.skills-h2 {
+  margin-left: 25px;
 }
 
 .skills {
   display: flex;
+  margin-top: ;
 }
 
 .skills2 {
@@ -62,12 +70,24 @@ h2 {
   text-align: center;
 }
 
+.skills-logo {
+  height: 60px;
+  width: 65px;
+  margin: 20px;
+  justify-content: space-around;
+}
+
 .azure {
   color: rgb(210, 226, 226);
 }
 
 .email {
   color: black;
+}
+
+.gmail {
+  font-size: 24px;
+  font-weight: 450;
 }
 
 p {
@@ -158,16 +178,10 @@ p {
   text-decoration: none;
 }
 
-.skills-logo {
-  height: 60px;
-  width: 65px;
-  margin: 10px;
-  justify-content: space-around;
-}
-
 .sub-section1 {
   display: flex;
   justify-content: space-around;
+  margin-top: 200px;
   padding: 80px;
 }
 
