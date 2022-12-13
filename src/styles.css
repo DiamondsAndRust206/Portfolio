@@ -1,6 +1,6 @@
 body {
   font-family: 'Rajdhani', sans-serif;
-  background-image: linear-gradient(rgb(33, 28, 64), white);
+  background-image: linear-gradient(rgb(15, 5, 80), white);
 }
 
 .main {
@@ -270,7 +270,6 @@ a {
 
   ul {
     display: none;
-    background-image: linear-gradient(to right, rgb(54, 213, 160), rgb(33, 28, 64));
     margin: 0px;
   }
 
@@ -286,13 +285,13 @@ a {
     display: flex;
     flex-direction: column-reverse;
     /* background-color: rgb(33, 28, 64); */
-    background-image: linear-gradient(rgb(39, 177, 131), rgb(60, 51, 116));
+    background-image: linear-gradient(rgb(30, 21, 88), rgb(68, 107, 162), rgb(30, 21, 88));
 
   }
   .logo {
     height: 80px;
     width: 80px;
-    display: ;
+    display: none;
   }
 }
 
