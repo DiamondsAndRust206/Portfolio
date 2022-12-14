@@ -184,9 +184,9 @@ p {
 
 .sub-section1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: ;
   margin-top: 200px;
-  padding: 100px;
+  padding: 75px;
 }
 
 .sub-section2 {
@@ -285,7 +285,7 @@ a {
     display: flex;
     flex-direction: column-reverse;
     /* background-color: rgb(33, 28, 64); */
-    background-image: linear-gradient(rgb(30, 21, 88), rgb(68, 107, 162), rgb(30, 21, 88));
+    background-image: linear-gradient(rgb(15, 5, 80), rgb(72, 104, 148), rgb(15, 5, 80));
 
   }
   .logo {
