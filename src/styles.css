@@ -34,7 +34,7 @@ li {
 
 h1 {
   font-family: 'Lobster', sans-serif;
-  color: rgb(185, 201, 201);
+  color: rgb(164, 199, 199);
   font-size: 100px;
   font-weight: 300;
   margin: 0px;
@@ -42,7 +42,7 @@ h1 {
 
 h2 {
   font-size: 60px;
-  color: rgb(185, 201, 201);
+  color: rgb(164, 199, 199);
   margin: 0px;
 }
 
@@ -78,15 +78,19 @@ h2 {
 }
 
 .skills-logo:hover {
-  background-color: rgb(141, 139, 139);
+  background-color: rgb(139, 138, 138);
 }
 
 .azure {
-  color: rgb(210, 226, 226);
+  color: rgb(164, 199, 199);
+}
+
+.projectsh2 {
+  color: rgb(188, 231, 231);
 }
 
 .email {
-  color: black;
+  color: rgb(122, 109, 206);
 }
 
 .gmail {
