@@ -70,7 +70,7 @@ h2 {
 }
 
 .skills-text {
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -79,11 +79,20 @@ h2 {
   width: 65px;
   margin: 20px;
   justify-content: space-around;
+  display: none;
 }
 
-.skills-logo:hover {
-  background-color: rgb(139, 138, 138);
+.skill-name {
+  margin: 15px;
 }
+
+.skill-name:hover + .skills-logo {
+  display: block;
+}
+
+/* .skills-logo:hover {
+  background-color: rgb(139, 138, 138);
+} */
 
 .azure {
   /* color: rgb(164, 199, 199); */
@@ -104,9 +113,7 @@ h2 {
 }
 
 p {
-  margin: 0;
-  font-size: ;
-  font-weight: ;
+  color: white;
 }
 
 .subtext {
@@ -216,7 +223,7 @@ p {
 }
 
 .project-card {
-  background-color: azure;
+  background-color: rgb(204, 210, 210);
   width: 300px;
   height: 500px;
   border-radius: 10px;
