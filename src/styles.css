@@ -86,13 +86,11 @@ h2 {
   margin: 15px;
 }
 
-.skill-name:hover + .skills-logo {
+.skill-name:hover {
+  /* background-image: url(images/html5.png);
+  background-repeat: no-repeat; */
   display: block;
 }
-
-/* .skills-logo:hover {
-  background-color: rgb(139, 138, 138);
-} */
 
 .azure {
   /* color: rgb(164, 199, 199); */
