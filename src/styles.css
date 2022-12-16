@@ -154,34 +154,21 @@ p {
 
 .socials {
   padding-bottom: 200px;
-  margin: 20px
+  margin: 20px;
+  margin-bottom: 100px;
 }
 
-.linkedIn-logo {
-  height: 70px;
-}
-
-.linkedIn {
+.social-div {
   text-align: center;
   font-size: 30px;
   margin:20px;
 }
 
-.linkedIn-link {
-  text-decoration: none;
+.social-logo {
+  height: 60px;
 }
 
-.github-logo {
-  height: 75px;
-}
-
-.github {
-  text-align: center;
-  font-size: 30px;
-  margin: 20px;
-}
-
-.github-link {
+.social-link {
   text-decoration: none;
 }
 
