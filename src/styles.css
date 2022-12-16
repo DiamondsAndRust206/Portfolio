@@ -1,37 +1,22 @@
 body {
   font-family: 'Rajdhani', sans-serif;
-  background-color: rgb(25, 25, 25);
+  /* background-color: rgb(25, 25, 25); */
+  background-image: radial-gradient(grey, black);
 }
 
 .main {
-  height: 100vh;
+  height: 40%;
   color: white;
   font-size: 40px;
-  position: relative;
-  background-image: url(images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.wrap {
-  overflow: hidden;
-  position: relative;
-}
-
-.bg {
-  opacity: 0.9;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
+  /* background-image: conic-gradient(grey, black); */
 }
 
 footer {
-  background-image: linear-gradient(rgb(25, 25, 25), white);
+  /* background-image: linear-gradient(rgb(25, 25, 25), white); */
   padding: 80px;
   color: white;
   text-align: center;
+  height: 15%;
 }
 
 nav {
@@ -151,7 +136,6 @@ p {
 .button {
   width: 200px;
   height: 45px;
-  /* background-color: rgb(197, 81, 38); */
   background-image: linear-gradient(rgb(120, 49, 23), rgb(197, 81, 38), rgb(120, 49, 23));
   border-radius: 30px;
   text-align: center;
@@ -192,8 +176,8 @@ p {
 
 .sub-section1 {
   display: flex;
-  justify-content: ;
-  margin-top: 200px;
+  justify-content: space-around;
+  height: 30%;
   padding: 75px;
 }
 
@@ -202,6 +186,8 @@ p {
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .headshot {
@@ -209,17 +195,18 @@ p {
   height: 300px;
   border-radius: 150px;
 }
+
 .headshot-container {
   display: flex;
   align-items: center;
 }
 
 .project-card {
-  background-color: rgb(75, 116, 116);
+  background-color: rgb(158, 166, 166);
   width: 300px;
   height: 500px;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px rgb(47, 47, 47);
+  box-shadow: 5px 5px 20px rgb(44, 44, 44);
   margin: 10px;
 }
 
@@ -241,7 +228,33 @@ p {
   border-radius: 125px;
 }
 
-hr {
+.main-hr1 {
+  border-width: 3px;
+  margin-right: 45em;
+  margin-bottom: 3em;
+  border-style:double;
+  color: white;
+}
+
+.main-hr2 {
+  border-width: 3px;
+  margin-left: 45em;
+  margin-top: 3em ;
+  border-style:double;
+  color: white;
+}
+
+.footer {
+  border-width: 3px;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-style:double;
+  color: white;
+}
+
+.card-hr {
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -272,15 +285,7 @@ a {
     color: rgb(185, 201, 201);
     font-size: 30px;
     margin: 20px;
-
     align-self: flex-end;
-  }
-
-  .main {
-    background-image: url(images/background.png);
-    /* background-repeat: no-repeat; */
-    background-size: 1000px 900px;
-    
   }
 
   ul {
@@ -299,9 +304,7 @@ a {
   nav {
     display: flex;
     flex-direction: column-reverse;
-    /* background-image: linear-gradient(rgb(6, 0, 46), rgb(4, 35, 79), rgb(6, 0, 46)); */
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(52, 43, 32), rgb(0, 0, 0));
-
+    background-image: linear-gradient(rgb(15, 15, 15), rgb(51, 50, 48), rgb(15, 15, 15));
   }
   .logo {
     height: 80px;
