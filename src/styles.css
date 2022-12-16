@@ -1,6 +1,5 @@
 body {
   font-family: 'Rajdhani', sans-serif;
-  /* background-image: linear-gradient(rgb(15, 5, 80), white); */
   background-color: rgb(25, 25, 25);
 }
 
@@ -32,6 +31,13 @@ ul {
 
 li {
   text-decoration: none;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  margin: 20px;
+  border-radius: 5px;
 }
 
 h1 {
@@ -93,17 +99,8 @@ h2 {
 }
 
 .azure {
-  /* color: rgb(164, 199, 199); */
   color: white;
 }
-
-/* .projectsh2 {
-  color: rgb(188, 231, 231);
-}
-
-.email {
-  color: rgb(122, 109, 206);
-} */
 
 .gmail {
   font-size: 24px;
@@ -136,7 +133,8 @@ p {
 .button {
   width: 200px;
   height: 45px;
-  background-color: rgb(197, 81, 38);
+  /* background-color: rgb(197, 81, 38); */
+  background-image: linear-gradient(rgb(120, 49, 23), rgb(197, 81, 38), rgb(120, 49, 23));
   border-radius: 30px;
   text-align: center;
   font-size: 30px;
@@ -156,16 +154,7 @@ p {
 
 .socials {
   padding-bottom: 200px;
-}
-
-.logo {
-  height: 100px;
-  margin: 20px;
-  border-radius: 20px;
-}
-
-.socials {
-  margin: 20px;
+  margin: 20px
 }
 
 .linkedIn-logo {
@@ -221,7 +210,7 @@ p {
 }
 
 .project-card {
-  background-color: rgb(204, 210, 210);
+  background-color: rgb(75, 116, 116);
   width: 300px;
   height: 500px;
   border-radius: 10px;
@@ -254,7 +243,7 @@ hr {
 
 .project-link {
   text-align: none;
-  color: rgb(255, 153, 116);
+  color: rgb(225, 222, 26);
 }
 
 a {
@@ -298,7 +287,8 @@ a {
   nav {
     display: flex;
     flex-direction: column-reverse;
-    background-image: linear-gradient(rgb(6, 0, 46), rgb(4, 35, 79), rgb(6, 0, 46));
+    /* background-image: linear-gradient(rgb(6, 0, 46), rgb(4, 35, 79), rgb(6, 0, 46)); */
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(52, 43, 32), rgb(0, 0, 0));
 
   }
   .logo {
